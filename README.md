@@ -1,18 +1,19 @@
-Campus Map Web System
+# Campus Map Web System
 An interactive campus navigation web system that supports user login, building info pages, and a dynamic map interface using HTML, CSS, JS, PHP, and MySQL.
 
-Features
+# Features
 User Login & Registration
 Interactive SVG-based Campus Map
 Building Detail Pages (e.g. GHK, Stadium)
 Backend validation using PHP + MySQL
 Sidebar & Map Legends for ease of use
 
+# structure
 Fronted: CSS, Javascript, HTML
 Backend: PHP
 Database: MySQL
 
-How to RUN:
+# How to RUN:
 1. git clone [ https://github.com/yourname/campus-map-web.git](https://github.com/chenchun-undergraduate/Campus_map_web)
 2. Create a database and table in MySQL:
    CREATE DATABASE CampusStudent;
@@ -26,7 +27,7 @@ How to RUN:
    Put project folder in htdocs/
    Access http://localhost/Campusmap/index.html
 
-4. Author
+# Author
 
 Chun Chen (Dave)  
 Course: CPS3500 – Programming WWW Server  
