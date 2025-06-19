@@ -8,3 +8,9 @@ Building Detail Pages (e.g. GHK, Stadium)
 Backend validation using PHP + MySQL
 Sidebar & Map Legends for ease of use
 
+Fronted: CSS, Javascript, HTML
+Backend: PHP
+Database: MySQL
+
+How to RUN:
+git clone https://github.com/yourname/campus-map-web.git
