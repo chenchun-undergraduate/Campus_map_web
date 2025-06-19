@@ -13,4 +13,22 @@ Backend: PHP
 Database: MySQL
 
 How to RUN:
-git clone https://github.com/yourname/campus-map-web.git
+1. git clone [ https://github.com/yourname/campus-map-web.git](https://github.com/chenchun-undergraduate/Campus_map_web)
+2. Create a database and table in MySQL:
+   CREATE DATABASE CampusStudent;
+      CREATE TABLE users (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       username VARCHAR(50) UNIQUE NOT NULL,
+       password VARCHAR(255) NOT NULL,
+       email VARCHAR(100) UNIQUE NOT NULL
+      );
+3. Run with local PHP server or XAMPP:
+   Put project folder in htdocs/
+   Access http://localhost/Campusmap/index.html
+
+4. Author
+
+Chun Chen (Dave)  
+Course: CPS3500 – Programming WWW Server  
+Instructor: Dr. Hemn Barzan Abdalla  
+Spring 2025
